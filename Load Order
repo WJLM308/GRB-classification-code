@@ -1,0 +1,12 @@
+Some lines for saving files are commented out in order to prevent accidental rewrites, so this won't work unless you uncomment them.
+
+Generally speaking, the load order is:
+
+  Getting_required_files
+  Generating_dataset
+  config/embedding (due to a poor design choice they are dependent on each other, so just run config first with some lines commented out, or copy and paste config into embedding)
+  plotting (you can hand-classify the dataset using the built-in widget)
+  Fermi-Swift Intersection Download
+  plotting_Intersection
+  random_sample_test (optional -- takes a long time)
+  Misc (only a few cells are relevant)
