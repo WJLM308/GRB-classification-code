@@ -1,5 +1,7 @@
 Some lines for saving files are commented out in order to prevent accidental rewrites, so this won't work unless you uncomment them.
 
+Also, some of the code for generating certain files has been carelessly deleted, so I'll upload all the required files separately.
+
 Generally speaking, the load order is:
 
   Getting_required_files
